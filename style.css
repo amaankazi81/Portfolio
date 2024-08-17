@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 37, 73);
+    color: white;
+    font-family: 'poppins';
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+.footer .ft h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .ft h2 a:hover {
+    color: rgb(147, 23, 243);
+    font-size: 1.6rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.firstsection div {
+    width: 40%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+    margin: 5px 0;
+    width: 70%;
+}
+
+.rightsection img {
+    width: 70%;
+    margin: 5px, 10px;
+}
+
+.a {
+    color: rgb(198, 150, 243);
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 50vh;
+    text-align: center;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(167, 94, 234);
+    height: 1.2px;
+    margin: 90px, 84px;
+}
+
+.secondsection h1 {
+    margin-top: 50px;
+}
+
+.secondsection .skills {
+    width: 85vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.secondsection h1{
+    font-size: 50px;
+}
+.skills .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 243, 243);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.skills .box:hover{
+    width: 210px;
+    height: 210px;
+    box-shadow: 5px 10px 20px rgba(197, 193, 193, 0.9);
+}
+#html{
+    background-image: url('html.png');
+    background-size: cover;
+    text-align:start;
+}
+#css{
+    background-image: url('css.png');
+    background-size: cover;
+}
+#js{
+    background-image: url('js.png');
+    background-size: cover;
+    text-align: end;
+}
+#react{
+    background-image: url('react.png');
+    background-size: cover;
+}
+#nodejs{
+    background-image: url('nodejs.png');
+    background-size: cover;
+}
+#express{
+    background-image: url('express.png');
+    background-size: cover;
+
+}
+#python{
+    background-image: url('python.png');
+    background-size: cover;
+}
+#java{
+    background-image: url('java.png');
+    background-size: cover;
+}
+#bootstrap{
+    background-image: url('bts.png');
+    background-size: cover;
+}
+#mgdb{
+    background-image: url('mongo.png');
+    background-size: cover;
+}
+#mysql{
+    background-image: url('mysql.png');
+    background-size: cover;
+}
+#figma{
+    background-image: url('figma.png');
+    background-size: cover;
+}
+#git{
+    background-image: url('git.png');
+    background-size: cover;
+}
+.footer{
+    width: 100wh;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80vh;
+}
+.footer h2{
+    width: 200px;
+    display: flex ;
+    align-items: center;  
+    margin: 30px; 
+    margin-left: auto;
+}
+.footer .ft {
+    width: 350px; 
+    margin: 20px;
+    text-align: center;
+} 
+.footer .ft h2{
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 20px;
+}   
+.footer .ft img{
+    width: 20px;
+    height: 20px;
+} 
+/* General styles for mobile devices */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firstsection div {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .leftsection {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .rightsection img {
+        width: 100%;
+    }
+
+    .secondsection {
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .skills .box {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .skills .box:hover {
+        width: 110px;
+        height: 110px;
+        box-shadow: 3px 5px 10px rgba(197, 193, 193, 0.9);
+    }
+
+    .footer {
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .footer h2 {
+        margin: 20px 0;
+    }
+
+    .footer .ft {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+}
+
+/* For very small devices */
+@media (max-width: 480px) {
+
+    .left {
+        font-size: 1.2rem;
+    }
+
+    .leftsection {
+        font-size: 1.8rem;
+    }
+
+    .skills .box {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skills .box:hover {
+        width: 90px;
+        height: 90px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .footer h2 {
+        font-size: 1.2rem;
+    }
+
+    .footer .ft img {
+        width: 15px;
+        height: 15px;
+    }
+}
