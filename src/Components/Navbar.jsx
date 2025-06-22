@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/navbar.css'
-import amaan from '../Images/amaank.jpeg'
+import amaan from '../Images/amaan.jpeg'
 import { ReactTyped } from "react-typed";
 
 function Navbar(){

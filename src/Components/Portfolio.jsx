@@ -81,11 +81,11 @@ function Portfolio() {
         <Navbar/>
         <div className="portfolio-body">
         <div className="buttons">
-            <button onClick={handleAboutmeClick}><h2>About Me</h2></button>
-            <button onClick={handleSkillsClick}><h2>Skills</h2></button>
-            <button onClick={handleExperienceClick}><h2>Experience</h2></button>
-            <button onClick={handleProjectsClick}><h2>Projects</h2></button>
-            <button onClick={handleAchievementsClick}><h2>Achievements</h2></button>
+            <a href="#about"><button onClick={handleAboutmeClick}><h2>About Me</h2></button></a>
+            <a href="#skills"><button onClick={handleSkillsClick}><h2>Skills</h2></button></a>
+            <a href="#experience"><button onClick={handleExperienceClick}><h2>Experience</h2></button></a>
+            <a href="#projects"><button onClick={handleProjectsClick}><h2>Projects</h2></button></a>
+            <a href="#achievements"><button onClick={handleAchievementsClick}><h2>Achievements</h2></button></a>
             
         </div>
         <div className="contents">
@@ -97,7 +97,7 @@ function Portfolio() {
         )}
 
         {aboutme && (
-            <div className="aboutme">
+            <div className="aboutme" id='about'>
                 <h2>About Me</h2> <hr />
                     <p>
                     Hi! I'm <strong>Amaan Kazi</strong>, a passionate <strong>Computer Science Engineer</strong> from Mumbai, India.
@@ -111,7 +111,7 @@ function Portfolio() {
                     <p>
                     During my engineering journey, I’ve completed internships, published research, and constantly pushed myself 
                     to solve real-world problems with technology. I’m now actively looking for opportunities as a 
-                    <strong>Full Stack Developer</strong> or <strong>Machine Learning Specialist</strong> to bring value to dynamic teams.
+                    <strong> Full Stack Developer</strong> or <strong>Machine Learning Specialist</strong> to bring value to dynamic teams.
                     </p>
                     <p>
                     When I'm not coding, I enjoy exploring tech trends, working on side projects, and helping others with their development journey. 
@@ -126,7 +126,7 @@ function Portfolio() {
         )}
 
         {skills && (
-            <div className="skills">
+            <div className="skills" id='skills'>
                 <div className="hed"><h2>Skills</h2> </div> <hr />
                 <div className="sk-img">
                 <div className="box"><img src={python} alt="" /></div>
@@ -149,7 +149,7 @@ function Portfolio() {
         )}
 
         {experience && (
-            <div className="experience">
+            <div className="experience" id='experience'>
                 <h2>Experience</h2> <hr />
                 <strong>Full Stack Web Developer Intern, Sep 2024 - Oct 2024</strong> <br /> <br />
                 <strong>Unified Mentor</strong> 
@@ -172,7 +172,7 @@ function Portfolio() {
         )}
 
         {projects && (
-            <div className="projects">
+            <div className="projects" id='projects'>
                 <h2>Projects</h2> <hr />
                 <h3>🏥 Health Record Management System</h3>
                 <p>
@@ -249,7 +249,7 @@ function Portfolio() {
         )}
 
         {achievements && (
-            <div className="achievements">
+            <div className="achievements" id='achievements'>
                 <h2>Achievements</h2> <hr />
                     <h3>📄 IEEE Research Publication</h3>
                     <p>
