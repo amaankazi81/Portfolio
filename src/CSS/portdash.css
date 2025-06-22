@@ -144,3 +144,55 @@
     text-decoration: underline;
     color: rgb(33, 33, 199);
 }
+
+@media screen and (max-width: 768px) {
+
+  /* Portfolio Layout */
+  .portfolio-body {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .buttons {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .buttons button {
+    width: 80%;
+    margin: 5px;
+  }
+
+  .contents {
+    width: 95%;
+  }
+
+  .aboutme, .experience, .achievements, .projects {
+    margin: 10px;
+  }
+
+  .aboutme p, .aboutme h4 {
+    margin-left: 0;
+  }
+
+  /* Skills */
+  .sk-img {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills .box {
+    width: 120px;
+    height: 120px;
+  }
+
+  .skills img {
+    width: 120px;
+    height: 120px;
+  }
+
+}

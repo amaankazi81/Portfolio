@@ -29,3 +29,26 @@
     height: 155px;
 }
 
+@media screen and (max-width: 768px){
+    .nav-body {
+    padding: 10px;
+  }
+
+  .cntr {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pfp img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .title h2, .title h3 {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+}
+

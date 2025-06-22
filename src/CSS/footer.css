@@ -49,5 +49,21 @@
     margin-right: 10px;
 }
 
+@media screen and (max-width: 768px){
+    .footer {
+    padding: 10px;
+  }
 
+  .f-content {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+  }
+
+  .address, .phone-mail, .likin-git {
+    margin: 0;
+    text-align: center;
+  }
+}
 

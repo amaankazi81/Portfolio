@@ -1,6 +1,7 @@
 // Portfolio.jsx
 import React from 'react';
 import { useState } from 'react';
+import { ReactTyped } from "react-typed";
 import '../CSS/portdash.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -91,7 +92,7 @@ function Portfolio() {
 
         {noDisplay && (
             <div className="noDisplay">
-                <h2>Explore My Portfolio!!</h2>
+                <h2><ReactTyped strings={["Welcome to my Portfolio!!","Explore my Portfolio!!"]} typeSpeed={80} /></h2>
             </div>
         )}
 
