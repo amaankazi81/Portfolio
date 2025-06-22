@@ -1,0 +1,146 @@
+.portfolio-body{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(37, 37, 73);
+    color: white;
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.buttons{
+    width: 25%;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button{
+    width: 290px;
+    height: 65px;
+    color: white;
+    background-color:  rgb(131, 75, 220);
+    border-radius: 20px;
+    margin: 8px;
+    border: 0.4px, solid, rgb(184, 169, 169);
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    background-color: rgb(175, 115, 249);
+    box-shadow: 5px 5px 5px  rgb(175, 170, 170);
+}
+
+
+.contents{
+    width: 70%;
+    margin: 8px;
+    border-radius: 10px;
+    background-color:  rgb(131, 75, 220);
+}
+
+.contents hr{
+    width: 90%;
+}
+
+.aboutme h2, h3{
+    text-align: center;
+}
+
+.aboutme{
+    margin: 10px;
+    text-align: left;
+}
+
+.aboutme p, h4{
+    margin-left: 10px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills h2{
+    margin: 10px;
+}
+
+.skills .box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(243, 243, 243);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.hed hr{
+    width: 80%;
+}
+
+.hed {
+    margin-top: 10px;
+}
+
+.sk-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills img{
+    width: 150px;
+    height: 150px;
+}
+
+.skills .box:hover{ 
+    box-shadow: 5px 10px 20px rgba(197, 193, 193, 0.9);
+}
+
+.experience{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.experience h2{
+    text-align: center;
+}
+
+.achievements p{
+    margin: 15px;
+}
+
+.achievements a{
+    text-decoration: none;
+    color: black;
+}
+
+.achievements a:hover{
+    text-decoration: underline;
+    color: rgb(33, 33, 199);
+}
+
+.projects{
+    margin: 10px;
+    margin-bottom:  10px ;
+}
+
+.projects p{
+    margin: 20px;
+}
+
+.projects a{
+    text-decoration: none;
+    color: black;
+}
+
+.projects a:hover{
+    text-decoration: underline;
+    color: rgb(33, 33, 199);
+}

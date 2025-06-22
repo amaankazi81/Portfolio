@@ -1,0 +1,53 @@
+.footer{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(37, 37, 73);
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer hr{
+    width: 90%;
+}
+
+.f-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 50px;
+    margin-left: 10px;
+}
+
+.f-content a{
+    text-decoration: none;
+    color: white;
+}
+
+.f-content a:hover{
+    text-decoration: underline;
+    color: rgb(131, 75, 220);
+}
+
+.f-content img{
+    width: 30px;
+    height: 30px;
+}
+
+.address{
+    margin-left: 10px;
+}
+
+.phone-mail{
+    margin-right: 110px;
+}
+
+.likin-git{
+    margin-right: 10px;
+}
+
+
+

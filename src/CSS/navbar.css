@@ -1,0 +1,31 @@
+.nav-body{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(37, 37, 73);
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.nav-body hr{
+    width: 90vw;
+    color: rgb(131, 75, 220);
+}
+
+.nav-body h1{
+    text-align: center;
+}
+
+.cntr{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.pfp img{
+    width: 155px;
+    height: 155px;
+}
+
